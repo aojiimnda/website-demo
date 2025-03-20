@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="D'Creative Crafts - Handcrafted flowers made with love and attention to detail for home decor and special occasions">
+    <title>D'Creative Crafts | Handcrafted Flowers</title>
+    <link rel="icon" href="images/logo.jpg" type="image/jpeg">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>    
+        <nav>
+            <div class="logo-icon icon">
+                <img src="https://scontent.fmnl20-1.fna.fbcdn.net/v/t1.15752-9/482214658_1664493400838686_3562898053457424987_n.png?stp=dst-png_s2048x2048&_nc_cat=105&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHIWhq3L3Z76xJe4129NmYeuKM6fYhBo-64ozp9iEGj7ga0IJvVkTMKdbcnf_AWQeXinRwJB_8IHF_vxTK1mi3U&_nc_ohc=sjkyprbjZaYQ7kNvgHGWuS9&_nc_zt=23&_nc_ht=scontent.fmnl20-1.fna&oh=03_Q7cD1wEh46MzxaqakfpZUmeAnzu3BlEFXiX6GT85z4lmHJKzfQ&oe=67F27469" alt="D'Creative Crafts Logo">
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li class="logo">D'Creative Crafts<span class="logo-leaf">❈</span></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            
+            <button class="cart-icon icon" aria-label="Shopping Cart">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </button>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-text">
+                <h1 class="hero-title">HANDCRAFTED FLOWERS WITH LOVE</h1>
+                <p class="hero-description">Discover the artistry behind our handcrafted flowers. Each petal tells a story of dedication and passion.</p>
+                <button class="cta-button" onclick="document.getElementById('products').scrollIntoView({ behavior: 'smooth' })">Explore the Craft</button>
+            </div>
+            
+            <div class="hero-image">
+                <div class="bg-circle"></div>
+                <img src="https://scontent.fmnl20-1.fna.fbcdn.net/v/t1.15752-9/482115580_1021021896507863_3311001853775966429_n.png?stp=dst-png_s2048x2048&_nc_cat=109&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGbsvYl7g0c7W4TJ3eLE2VItmL_GkWcSOC2Yv8aRZxI4J0bsZqajtjTgUIaaV6R8mx-PncN9lh5k3QdXZ_ZbUvZ&_nc_ohc=a9PxplYG3zEQ7kNvgHg3cVz&_nc_zt=23&_nc_ht=scontent.fmnl20-1.fna&oh=03_Q7cD1wEy9FgKBNMj7Dj9-uLLGOiy5bHC9fskmrOlk7PGDv_DCQ&oe=67F25A02" alt="Beautifully arranged handcrafted flowers">
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="products-section">
+            <h2 class="section-title">Our Products</h2>
+            <div class="products-container">
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://scontent.fmnl20-1.fna.fbcdn.net/v/t1.15752-9/481937093_2772111932949779_4368287767269152595_n.png?stp=dst-png_s2048x2048&_nc_cat=102&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGprPybb7zQ_cECqcRNq2hMGu8YegEHbkoa7xh6AQduSvfZI6UlPBekXiC8zYuNsIWxz8HVentQS4Ktmd1ff2uU&_nc_ohc=ZJHz1xAKAJsQ7kNvgGZTMIU&_nc_zt=23&_nc_ht=scontent.fmnl20-1.fna&oh=03_Q7cD1wECE93NvA1RPnbJ4Gz4MZIrJQXUwcOF1orFhR2Fa4pRpA&oe=67F23FB7" alt="Cherry Blossom Bouquet with delicate pink petals">
+                    </div>
+                    <h3 class="product-title">Cherry Blossom Bouquet</h3>
+                    <p class="product-price">₱400.00</p>
+                    <button class="add-to-cart" aria-label="Add Cherry Blossom Bouquet to cart">Add to Cart</button>
+                    <div class="product-details">
+                        <h4>Cherry Blossom Bouquet</h4>
+                        <p class="details-description">Delicate handcrafted cherry blossoms with soft pink petals that bring the gentle beauty of spring to your home.</p>
+                        <ul class="details-features">
+                            <li><strong>Materials:</strong> High-quality paper, wire stems</li>
+                            <li><strong>Dimensions:</strong> 30cm height, 20cm width</li>
+                            <li><strong>Includes:</strong> Decorative vase ribbon</li>
+                            <li><strong>Perfect for:</strong> Home decor, gifts, special occasions</li>
+                        </ul>
+                        <p class="details-availability">In stock - Ships within 2-3 days</p>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://scontent.fmnl20-1.fna.fbcdn.net/v/t1.15752-9/482044710_1698947224370093_4710725170491933168_n.png?stp=dst-png_s2048x2048&_nc_cat=111&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeEm8q9-cP38fPxCATSXuTjFzM8ujdub_9bMzy6N25v_1uImEj3MMxQCVJBFAzx8KCfQopbhpidEE74rC_ZLuugu&_nc_ohc=eYwWWarXzd0Q7kNvgE1T2fn&_nc_zt=23&_nc_ht=scontent.fmnl20-1.fna&oh=03_Q7cD1wGHek4AJpGN3Rb6-klVfmV_8sfkpxyRDxOqYE2e_Qh3tQ&oe=67F26E50" alt="Blue Berry Blossom Bouquet with vibrant blue flowers">
+                    </div>
+                    <h3 class="product-title">Blue Berry Blossom Bouquet</h3>
+                    <p class="product-price">₱500.00</p>
+                    <button class="add-to-cart" aria-label="Add Blue Berry Blossom Bouquet to cart">Add to Cart</button>
+                    <div class="product-details">
+                        <h4>Blue Berry Blossom Bouquet</h4>
+                        <p class="details-description">Striking blue flowers with delicate petals that create a stunning visual statement for any room.</p>
+                        <ul class="details-features">
+                            <li><strong>Materials:</strong> Premium craft paper, flexible wire stems</li>
+                            <li><strong>Dimensions:</strong> 35cm height, 25cm width</li>
+                            <li><strong>Includes:</strong> Complimentary gift wrapping</li>
+                            <li><strong>Perfect for:</strong> Home decor, office spaces, gifts</li>
+                        </ul>
+                        <p class="details-availability">In stock - Ships within 2-3 days</p>
+                    </div>
+                </article>
+                
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://scontent.fmnl20-1.fna.fbcdn.net/v/t1.15752-9/481171915_1728290011429453_8294358455671095975_n.png?_nc_cat=107&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeEl843ojk9E1pS_E6p5ZKLYCMcvUgswxGUIxy9SCzDEZcvkbEQVkG_Fb8fey1Et4BJq9dacuDtz9nGG8XW4MjF2&_nc_ohc=hCp7oJGbvVwQ7kNvgGDGtx3&_nc_zt=23&_nc_ht=scontent.fmnl20-1.fna&oh=03_Q7cD1wGCaVuBDpMHtAdz6xGQY5EvGYuounj8-XYw67AE4UkCYA&oe=67F21D58" alt="Blossom Symphony Bouquet with harmonious flower arrangement">
+                    </div>
+                    <h3 class="product-title">Blossom Symphony Bouquet</h3>
+                    <p class="product-price">₱799.00</p>
+                    <button class="add-to-cart" aria-label="Add Blossom Symphony Bouquet to cart">Add to Cart</button>
+                    <div class="product-details">
+                        <h4>Blossom Symphony Bouquet</h4>
+                        <p class="details-description">A vibrant mix of blossoms arranged in a harmonious symphony of colors, bringing elegance and warmth to any space.</p>
+                        <ul class="details-features">
+                            <li><strong>Materials:</strong> Premium silk flowers, wire stems</li>
+                            <li><strong>Dimensions:</strong> 35cm height, 25cm width</li>
+                            <li><strong>Includes:</strong> Decorative ceramic vase</li>
+                            <li><strong>Perfect for:</strong> Home decor, celebrations, heartfelt gifts</li>
+                        </ul>
+                        <p class="details-availability">In stock - Ships within 2-3 days</p>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://scontent.fmnl20-1.fna.fbcdn.net/v/t1.15752-9/482403184_926926282653609_7230172311094604155_n.png?stp=dst-png_s2048x2048&_nc_cat=105&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeEdj4zSk1T5f8FRBzA_dM3bFwR6MEZRV8YXBHowRlFXxiHHONSoUY5rEx9RVJAkDi7LBzExhhvGb1Av07qJkpK2&_nc_ohc=Ks0zmFLvn90Q7kNvgFypopM&_nc_zt=23&_nc_ht=scontent.fmnl20-1.fna&oh=03_Q7cD1wHAyrdsAJIUfOv72No5CVKmujaiQkSDaU2gsYDu3aE27Q&oe=67F2819F" alt="Emerald Serenity Bouquet with green-hued flowers">
+                    </div>
+                    <h3 class="product-title">Emerald Serenity Bouquet</h3>
+                    <p class="product-price">₱350.00</p>
+                    <button class="add-to-cart" aria-label="Add Emerald Serenity Bouquet to cart">Add to Cart</button>
+                    <div class="product-details">
+                        <h4>Emerald Serenity Bouquet</h4>
+                        <p class="details-description">A refreshing arrangement featuring lush greenery and delicate florals, evoking a sense of peace and tranquility.</p>
+                        <ul class="details-features">
+                            <li><strong>Materials:</strong> Artificial greenery, fabric flowers</li>
+                            <li><strong>Dimensions:</strong> 40cm height, 22cm width</li>
+                            <li><strong>Includes:</strong> Glass vase with twine accent</li>
+                            <li><strong>Perfect for:</strong> Relaxation spaces, nature lovers, modern decor</li>
+                        </ul>
+                        <p class="details-availability">Limited stock - Ships within 2-5 days</p>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://scontent.fmnl20-1.fna.fbcdn.net/v/t1.15752-9/481737631_1660445521348045_9509946644971139_n.png?stp=dst-png_s2048x2048&_nc_cat=102&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeFA603Y21pqO0HxQ4RrKFPLdIRSLZasbWV0hFItlqxtZQap8qW-WA0rgf5n6yluUOHTs_prSjOetO2WDjQz3R_O&_nc_ohc=u9iTNsMmb0QQ7kNvgGq3ehW&_nc_zt=23&_nc_ht=scontent.fmnl20-1.fna&oh=03_Q7cD1wFd0rQ-Qpf3Hq7YbqL9QH1Z5lM97rIFg0bue1pUwUoDFw&oe=67F27A2E">
+                    </div>
+                    <h3 class="product-title">Ethereal Petal Radiance Bouquet</h3>
+                    <p class="product-price">₱799.00</p>
+                    <button class="add-to-cart" aria-label="Add Ethereal Petal Radiance Bouquet to cart">Add to Cart</button>
+                    <div class="product-details">
+                        <h4>Ethereal Petal Radiance Bouquet</h4>
+                        <p class="details-description">An enchanting bouquet of soft pastel petals that glow with a subtle radiance, perfect for creating a dreamy atmosphere.</p>
+                        <ul class="details-features">
+                            <li><strong>Materials:</strong> Silk petals, LED fairy lights, wire stems</li>
+                            <li><strong>Dimensions:</strong> 38cm height, 24cm width</li>
+                            <li><strong>Includes:</strong> Battery-powered LED lights</li>
+                            <li><strong>Perfect for:</strong> Romantic settings, ambient lighting, special moments</li>
+                        </ul>
+                        <p class="details-availability">Pre-order available - Ships in 3-5 days</p>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://scontent.fmnl20-1.fna.fbcdn.net/v/t1.15752-9/482119870_1185537689603863_816806997794191915_n.png?stp=dst-png_s2048x2048&_nc_cat=106&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGop8_G4zr1MOQFS4Sk7TxjFI35k2fae1wUjfmTZ9p7XFqaby-QpOc-bb-8AIR87IJnA2LDN3dwsM06ImH4gUrA&_nc_ohc=928iiYn4l_EQ7kNvgG5tYUe&_nc_zt=23&_nc_ht=scontent.fmnl20-1.fna&oh=03_Q7cD1wHtXw918SdFRXw9EmU3bprjtFHx6iNSexbEuR2HPdOs3w&oe=67F26DA2" alt="Eternal Sunshine Bouquet">
+                    </div>
+                    <h3 class="product-title">Eternal Sunshine Bouquet</h3>
+                    <p class="product-price">₱300.00</p>
+                    <button class="add-to-cart" aria-label="Add Eternal Sunshine Bouquet to cart">Add to Cart</button>
+                    <div class="product-details">
+                        <h4>Eternal Sunshine Bouquet</h4>
+                        <p class="details-description">Bright and cheerful sunflowers combined with delicate daisies, radiating warmth and positivity all year round.</p>
+                        <ul class="details-features">
+                            <li><strong>Materials:</strong> High-quality fabric flowers, wire stems</li>
+                            <li><strong>Dimensions:</strong> 32cm height, 23cm width</li>
+                            <li><strong>Includes:</strong> Rustic burlap-wrapped vase</li>
+                            <li><strong>Perfect for:</strong> Bringing joy, uplifting decor, thoughtful gifts</li>
+                        </ul>
+                        <p class="details-availability">In stock - Ships within 1-2 days</p>
+                    </div>
+                </article>
+            </div>
+            <p class="shipping-info">Nationwide shipping available. Payment options: COD, Pickup, GCash.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-container">
+                <address class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>09268371896</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Galas Highway, Dipolog City</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-money-bill-wave"></i>
+                        <p>COD, Pickup, GCash</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-shipping-fast"></i>
+                        <p>Nationwide Shipping</p>
+                    </div>
+                </address>
+                
+                <div class="contact-form">
+                    <h3>Send a Message:</h3>
+                    <form method="post" action="submit-form.php">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Message" required></textarea>
+                        </div>
+                        <button type="submit" class="cta-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <h2 class="section-title">About D'Creative Crafts</h2>
+            <div class="about-container">
+                <div class="about-image">
+                    <img src="https://scontent.fmnl20-1.fna.fbcdn.net/v/t39.30808-6/422615315_894338986025345_4339014607420921175_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFlvmrw2NexUMY5XQDPQ5rWLNvFFBZSISEs28UUFlIhIWeoPv7GsaQsqy-dyRgJXjao8IKl6CanltXQ6w7vY7XB&_nc_ohc=mIG6FV4SkbgQ7kNvgHbfkpI&_nc_zt=23&_nc_ht=scontent.fmnl20-1.fna&_nc_gid=AgQziZ-zcICHuf1HPcr_kY6&oh=00_AYG6c2netCt2uvXUgcsrnZUbgHIacw4M1TJJyHV8WgFvRg&oe=67D0CED0" alt="D'Creative Crafts workshop and handcrafted flowers">
+                </div>
+                <div class="about-text">
+                    <p>D'Creative Crafts specializes in handcrafted flowers made with love and attention to detail. Each flower is meticulously designed to bring beauty and elegance to any space.</p>
+                    <p>Dedicated to creating beautiful handcrafted flowers for home decor and special occasions.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+    <div class="footer-container">
+        <!-- Column 1: Logo and Tagline -->
+        <div class="footer-brand">
+            <img src="https://scontent.fmnl20-1.fna.fbcdn.net/v/t39.30808-6/422615315_894338986025345_4339014607420921175_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFlvmrw2NexUMY5XQDPQ5rWLNvFFBZSISEs28UUFlIhIWeoPv7GsaQsqy-dyRgJXjao8IKl6CanltXQ6w7vY7XB&_nc_ohc=mIG6FV4SkbgQ7kNvgHbfkpI&_nc_zt=23&_nc_ht=scontent.fmnl20-1.fna&_nc_gid=AgQziZ-zcICHuf1HPcr_kY6&oh=00_AYG6c2netCt2uvXUgcsrnZUbgHIacw4M1TJJyHV8WgFvRg&oe=67D0CED0" alt="D'Creative Crafts workshop and handcrafted flowers" alt="D'Creative Crafts Logo">
+            <p>Handcrafted flowers with love and attention to detail</p>
+        </div>
+        
+        <!-- Column 2: Quick Links -->
+        <div class="footer-nav">
+            <h4>Our Store</h4>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        
+        <!-- Column 3: Additional Links -->
+        <div class="footer-links">
+            <h4>Further Links</h4>
+            <ul>
+                <li><a href="terms.html">Terms & Conditions</a></li>
+                <li><a href="news.html">News</a></li>   
+                <li><a href="shipping.html">Shipping Info</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </div>
+        
+        <!-- Column 4: Contact Information -->
+        <div class="footer-contact">
+            <h4>Get In Touch</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Galas Highway, Dipolog City</p>
+            <p><i class="fas fa-phone"></i> 09268371896</p>
+            <p><i class="fas fa-envelope"></i> contact@dcreativecrafts.com</p>
+        </div>
+    </div>
+        
+    <!-- Copyright Bar -->
+    <div class="footer-bottom">
+        <p>&copy; 2025 D'Creative Crafts | All rights reserved</p>
+    </div>
+</footer>
+    <script src="index.js"></script>
+</body>
+</html> 
+
